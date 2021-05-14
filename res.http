@@ -1,0 +1,30 @@
+
+POST https://softbitwebapi20210413165050.azurewebsites.net/api/mensajes
+Content-Type: application/json
+
+{
+    "nombre":"EL NEGRO CON EL PITO MAS LARGO",
+    "telefono":"044481",
+    "email":"q@c.com",
+    "mensaje":"CHICHARp",
+    "id_app":"2"
+}
+###
+POST https://softbitwebapi20210413165050.azurewebsites.net/api/cita
+Content-Type: application/json
+
+{
+    "id_user": 1,
+    "user": null,
+    "dia": "CHES LLANTAS DE POU",
+    "hora_i": "10:00",
+    "hora_f": "11:00",
+    "fecha_reg": "15/04/2021"
+}
+
+
+###
+GET https://softbitwebapi20210413165050.azurewebsites.net/api/mensajes
+
+###
+GET https://softbitwebapi20210413165050.azurewebsites.net/api/cita
